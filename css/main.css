@@ -1,0 +1,563 @@
+@font-face {
+  font-family: iransans;
+  src: url(/font/fonts/IRANSans-web.woff);
+}
+body {
+  font-family: iransans;
+  height: 650px;
+}
+.pedar {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.h1responsiv {
+  display: inline-block;
+  border-bottom: 2px solid #7b29e8;
+  border-radius: 20%;
+}
+  .ali{
+    color: white;
+    text-align: center;
+}
+.pesar1 {
+  position: relative;
+  height: 100%;
+  width: 15%;
+  border-left: 0.2px solid #39393b;
+}
+.shoroeeslide {
+  justify-content: center;
+}
+.pesar3 {
+  margin-top: 10%;
+}
+.divxc {
+  width: 100%;
+  color: white;
+  padding-top: 10%;
+  text-align: center;
+}
+.pic1 {
+  border: 2px solid wheat;
+  box-shadow: 0px 0px 15px white;
+  border-radius: 50%;
+  width: 40%;
+}
+.divul {
+  margin-right: 5%;
+  font-size: 12px;
+  color: white;
+}
+.li1 {
+  opacity: 0.5;
+  margin: 30px 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+.divnemone > a {
+  color: white;
+}
+.liiconi {
+  padding: 5px;
+  background-color: rgba(46, 44, 44, 0.541);
+  border-radius: 50%;
+  font-size: 15px;
+}
+.liicon>a{
+    color: white;
+}
+
+.liicon1>a:hover{
+color: #5df4ff;
+}
+.liicon3>a:hover{
+  color: #28ff57;
+  }
+.liicon {
+  cursor: pointer;
+  margin: 10px;
+}
+.liiconi:hover{
+    font-size: 20px;
+}
+
+.li1:hover .li1icon {
+  color: white;
+  font-size: 18px;
+}
+.li1:hover {
+  opacity: 1;
+}
+.ulicon {
+    color: white;
+  justify-content: center;
+  margin-right: 5%;
+}
+.divicon {
+  width: 100%;
+  bottom: 5%;
+  position: absolute;
+}
+.divcopyright {
+  margin-right: 10%;
+  font-size: 10px;
+  color: white;
+}
+.salam {
+  align-self: center;
+  margin-top: 10%;
+}
+.pesar2 {
+  background-image: url();
+  flex-direction: column;
+  width: 80%;
+  /*justify-content: center;*/
+  align-items: center;
+  color: white;
+  height: 100%;
+}
+.divmoarefi {
+  font-size: 15px;
+  margin-bottom: 10%;
+  width: 450px;
+}
+.dokme1 {
+    color: black;
+  cursor: pointer;
+  text-align: center;
+  width: 100px;
+  padding: 5px;
+  font-size: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.dokme2 {
+  color: white;
+  margin-right: 2%;
+  text-align: center;
+  width: 80px;
+  padding: 5px;
+  font-size: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.html {
+  width: 400px;
+}
+.khathtml {
+  margin-right: 5%;
+  width: 80%;
+  height: 5px;
+  background-color: #7b29e8;
+}
+.html {
+  position: relative;
+  align-items: center;
+}
+.html::after {
+  top: -10%;
+  left: 0px;
+  position: absolute;
+}
+a:hover {
+  color: #7b29e8;
+}
+
+.html:nth-child(2)::after {
+  content: "90%";
+}
+.html:nth-child(3)::after {
+  content: "70%";
+}
+.html:nth-child(4)::after {
+  content: "80%";
+}
+.html:nth-child(5)::after {
+  content: "50%";
+}
+.html1 {
+  margin: 3% 0px;
+  width: 20%;
+}
+.pesarkhathtml {
+  width: 90%;
+  height: 100%;
+  background-color: white;
+}
+.pesarkhathtml2 {
+  width: 75%;
+  height: 100%;
+  background-color: white;
+}
+.pesarkhathtml3 {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+}
+.pesarkhathtml4 {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+.pesar5 {
+  margin-top: 10%;
+}
+.pesar4 {
+  margin-top: 10%;
+  color: white;
+}
+.divnemone {
+  width: 45%;
+  margin-bottom: 2em;
+  flex-direction: column;
+  align-items: center;
+}
+.divnemone > i {
+  font-size: 2em;
+  color: #7b29e8;
+}
+.divnemonepedar {
+  flex-wrap: wrap;
+  width: 100%;
+}
+.lipesar5 > i {
+  color: #7b29e8;
+  font-size: 25px;
+}
+.lipesar5 {
+  margin: 2em 0px;
+}
+.navicationbar {
+  display: none;
+  transform: translateX(100%);
+  color: white;
+  font-size: 10px;
+  top: 1em;
+  right: 0px;
+  position: absolute;
+  width: 30%;
+  height: 100%;
+}
+.closediv {
+  display: none;
+  font-size: 20px;
+  color: white;
+}
+.navication {
+    padding: .5em;
+  display: none;
+  font-size: 2em;
+}
+.navication > i {
+  cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  body {
+    height: 750px;
+  }
+  .shoroeeslide {
+    flex-direction: column;
+    align-items: center;
+  }
+  .shoroeeslide > .divax {
+    width: 70%;
+  }
+  .shoroeeslide > .divax:nth-child(3) {
+    margin-bottom: 10px;
+  }
+  .li1 {
+    margin: 5px;
+  }
+
+  .pedar {
+    overflow: scroll;
+    flex-direction: column;
+  }
+
+  .liicon{
+      display: none;
+  }
+  .pesar1 {
+    position: relative;
+    height: 30%;
+    width: 100%;
+  }
+  .pesar2 {
+    height: 100%;
+    width: 100%;
+  }
+  .pesar3 {
+    width: 100%;
+  }
+  .html {
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+  .html1 {
+    font-size: 0.8em;
+  }
+  .html::after {
+    font-size: 0.9em;
+  }
+  .maharadfardi {
+    margin: 5%;
+  }
+  .divmoarefi {
+    text-align: center;
+    word-break: keep-all;
+    font-size: 12px;
+    width: 100%;
+  }
+  .h1responsiv {
+    padding-right: 1em;
+    font-size: 20px;
+  }
+  .pedarh1{
+      margin-bottom: 5%;
+      text-align: center;
+  }
+  .divdokmeperar {
+    justify-content: center;
+  }
+  .divnemonepedar {
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  .divul > .ul1 {
+    display: none;
+  }
+  .li1 {
+    margin-bottom: 10px;
+  }
+  .divicon {
+    display: none;
+  }
+  .divxc > h4 {
+    display: none;
+  }
+  .divxc {
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  .pic1 {
+    width: 25%;
+    margin: .5em;
+  }
+  .ali{
+      transform: translateY(3em);
+  }
+  .navicationbar {
+    display: block;
+  }
+  .closediv {
+    display: flex;
+    justify-content: left;
+  }
+  .closediv > i {
+    cursor: pointer;
+    transform: rotate(45deg);
+  }
+  .navication {
+    display: block;
+  }
+  .pesar4 > h4 {
+    display: inline-block;
+    margin: 5%;
+  }
+  .divnemone > a {
+    font-size: 13px;
+  }
+} /*شروع باکس منو*/
+.grandpa .pedarlight {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: #7b29e8;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #7b29e8;
+}
+.grandpa .pedarlight .light {
+  color: white;
+  cursor: pointer;
+  line-height: 30px;
+}
+
+.flex,
+.divpedar .ulpedar {
+  display: flex;
+}
+
+.divpedar {
+  transition: all 0.5s linear;
+  position: relative;
+  width: 250px;
+  height: 40px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 20px;
+}
+.divpedar .dire {
+  display: block;
+  transition: all 0.3s linear;
+  z-index: 1;
+  background-color: black;
+  box-shadow: 0px 0px 10px white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 6.5%;
+}
+.divpedar .ulpedar {
+  list-style-type: none;
+  margin: 0px;
+  z-index: 100;
+  justify-content: space-around;
+  line-height: 40px;
+  padding: 0px;
+}
+.divpedar .lipedar {
+  z-index: 100;
+  color: black;
+}
+.divpedar .lipedar:nth-child(4) {
+  color: white;
+}
+.divpedar .lipedar .icon {
+  cursor: pointer;
+}
+/* turtle css*/
+.divax:hover .liax1 > .img1 {
+  box-shadow: 2px 2px 20px whitesmoke;
+  border: 2px solid whitesmoke;
+}
+.divax:hover {
+  box-shadow: 0px 0px 20px whitesmoke;
+}
+.divax {
+  padding: 10px;
+  transition: all 0.3s linear;
+  align-items: center;
+  box-shadow: -5px 20px 10px rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(225, 225, 225, 0.05);
+  color: white;
+  width: 25%;
+  height: 100%;
+}
+
+.divax:hover .audio {
+  opacity: 1;
+}
+.liax1 {
+  width: 50%;
+}
+.img1 {
+  transition: all 0.3s linear;
+  border: 5px solid #161623;
+  border-radius: 50%;
+  width: 90%;
+}
+.ulax {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.liax2 {
+  transition: all .5s linear;
+  opacity: 0;
+  flex-direction: column;
+  align-items: center;
+}
+.divax:hover > .ulax > .liax2 {
+  opacity: 1;
+}
+.liax3 {
+  color: white;
+}
+.liax3 > span {
+  margin-left: 5px;
+}
+
+.uldakhel > li {
+  margin-left: 15px;
+}
+.lidakhel1 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s linear;
+}
+.lidakhel2 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s linear;
+}
+.lidakhel3 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.9s linear;
+}
+.divax:hover > .ulax > .liax3 > .uldakhel > .lidakhel1 {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.divax:hover > .ulax > .liax3 > .uldakhel > .lidakhel2 {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.divax:hover > .ulax > .liax3 > .uldakhel > .lidakhel3 {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.liax2 > h4 {
+  margin-top: 0px;
+}
+
+/*@media (min-width:320px) and (max-width:416px){
+    .divax{
+        justify-content: center;
+        padding: 10% 0px;
+        margin: 5% 0px;
+        width: 100%;
+    }
+
+    .img1{
+        width: 100%;
+    }
+    .liax1{
+        width: 30%;
+    }
+}
+
+@media (min-width:416px) and (max-width:800px){
+    .divax{
+        justify-content: center;
+        padding: 10% 0px;
+        margin: 5% 0px;
+        width: 90%;
+    }
+
+    .img1{
+        width: 100%;
+    }
+    .liax1{
+        width: 30%;
+    }
+    
+}
+@media (min-width:801px) and (max-width:1137px){
+    .divax{
+        width: 30%;
+    }
+
+}*/
